@@ -1,9 +1,3 @@
 # color
 
-CMake
-
-```
-cmake .
-make all
-./color > color.html
-```
+http://tanjo.github.io/color/
