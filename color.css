@@ -1,49 +1,84 @@
 body {
-  background-color: #000000;
-  font-family: Arial, Verdana;
-  padding: 10px 30px;
-  color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-img {
-  max-width: 100%;
+#stage {
+    position: absolute;
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
 }
-
-blockquote {
-  border-left: 5px solid #ddd;
-  padding: 0px 20px;
-  color: #777;
+#color1,#color2,#color3,#color4,#color5 {
+    position: absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    left: 100%;
+    -moz-animation: imgtrans 5s infinite;
+    -webkit-animation: imgtrans 5s infinite;
+    animation: imgtrans 5s infinite;
 }
-
-a {
-  color: #000099;
+#color1 {
+    height: 100%;
+    width: 100%;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
 }
-
-table {
-  border-spacing: 0px;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+#color2 {
+    height: 100%;
+    width: 100%;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
-
-th {
-  margin: 0;
-  padding: 5px 10px;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+#color3 {
+    height: 100%;
+    width: 100%;
+    -moz-animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
 }
-
-td {
-  margin: 0;
-  padding: 5px 10px;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
+#color4 {
+    height: 100%;
+    width: 100%;
+    -moz-animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
 }
-
-pre {
-  border: 1px solid #999;
-  padding: 15px;
+#color5 {
+    height: 100%;
+    width: 100%;
+    -moz-animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
 }
-
-code {
-  margin: 0px;
+#frame {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+@-webkit-keyframes imgtrans {
+ 0% { left:100%; }
+ 5% { left:0%; }
+ 20% { left:0%; }
+ 25% { left:-100%; }
+ 100% { left:-100%; }
+}
+@-moz-keyframes imgtrans {
+ 0% { left:100%; }
+ 5% { left:0%; }
+ 20% { left:0%; }
+ 25% { left:-100%; }
+ 100% { left:-100%; }
+}
+@keyframes imgtrans {
+ 0% { left:100%; }
+ 5% { left:0%; }
+ 20% { left:0%; }
+ 25% { left:-100%; }
+ 100% { left:-100%; }
 }
