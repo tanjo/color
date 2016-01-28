@@ -1,3 +1,3 @@
 # color
 
-http://tanjo.github.io/color/
+色が次々と切り替わります
