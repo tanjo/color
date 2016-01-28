@@ -15,9 +15,9 @@ body {
   width: 100%;
   height: 100%;
   left: 100%;
-  -moz-animation: imgtrans 22s infinite;
-  -webkit-animation: imgtrans 22s infinite;
-  animation: imgtrans 22s infinite;
+  -moz-animation: imgtrans 23s infinite;
+  -webkit-animation: imgtrans 23s infinite;
+  animation: imgtrans 23s infinite;
 }
 #color1 {
   height: 100%;
@@ -191,12 +191,9 @@ body {
     left: 100%;
   }
   5% {
-    left: 0%;
+    left: 0%
   }
-  20% {
-    left: 0%;
-  }
-  25% {
+  10% {
     left: -100%;
   }
   100% {
@@ -208,12 +205,9 @@ body {
     left: 100%;
   }
   5% {
-    left: 0%;
+    left: 0%
   }
-  20% {
-    left: 0%;
-  }
-  25% {
+  10% {
     left: -100%;
   }
   100% {
@@ -225,12 +219,9 @@ body {
     left: 100%;
   }
   5% {
-    left: 0%;
+    left: 0%
   }
-  20% {
-    left: 0%;
-  }
-  25% {
+  10% {
     left: -100%;
   }
   100% {
